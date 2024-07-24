@@ -21,7 +21,7 @@ This document outlines the steps taken to deploy the MVP of the "AsciiArtify" pr
     * Namespace: demo
 * Click "Create".
 
-![Image](https://github.com/ro-mus/AsciiArtify/blob/main/img/ArgoCD-1.gif)
+![Image](https://github.com/ro-mus/AsciiArtify/blob/main/img/ArgoCD-MVP-1.gif)
 
 ### 3. Sync Demo Application
 
@@ -29,16 +29,25 @@ This document outlines the steps taken to deploy the MVP of the "AsciiArtify" pr
 * Choose options and resources to sync.
 * Click "Synchronize".
 
+![Image](https://github.com/ro-mus/AsciiArtify/blob/main/img/ArgoCD-MVP-2.gif)
+
 ### 4. Let's try to change something to verify synchronization process
 
 * For example change in values.yaml gateway type frome LoadBalancer to NodePort
 
+![Image](https://github.com/ro-mus/AsciiArtify/blob/main/img/ArgoCD-MVP-3.gif) 
 
 * Verify sync process 
 
+![Image](https://github.com/ro-mus/AsciiArtify/blob/main/img/ArgoCD-MVP-4.gif)
 
 ### 5. Enable automated synchronization and verify
 
 * Click "Details", next Sync Policy "Enable Auto-Sync"
 * Let's revert our last commit
+
+![Image](https://github.com/ro-mus/AsciiArtify/blob/main/img/ArgoCD-MVP-6.gif)
+
 * Wait 180 sec (default timeout) or click "Refresh"
+
+![Image](https://github.com/ro-mus/AsciiArtify/blob/main/img/ArgoCD-MVP-5.jpg)
