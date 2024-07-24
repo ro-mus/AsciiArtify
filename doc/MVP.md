@@ -21,6 +21,8 @@ This document outlines the steps taken to deploy the MVP of the "AsciiArtify" pr
     * Namespace: demo
 * Click "Create".
 
+![Image](https://github.com/ro-mus/AsciiArtify/blob/main/img/ArgoCD-1.gif)
+
 ### 3. Sync Demo Application
 
 * Click "Sync".
