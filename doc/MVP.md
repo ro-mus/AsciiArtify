@@ -51,3 +51,7 @@ This document outlines the steps taken to deploy the MVP of the "AsciiArtify" pr
 * Wait 180 sec (default timeout) or click "Refresh"
 
 ![Image](https://github.com/ro-mus/AsciiArtify/blob/main/img/ArgoCD-MVP-5.jpg)
+
+### 6. Let's check our demo app
+
+![Image](https://github.com/ro-mus/AsciiArtify/blob/main/img/ArgoCD-MVP-7.gif)
