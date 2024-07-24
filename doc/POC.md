@@ -34,6 +34,9 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 
 Open your browser and follow link https://localhost:8080. 
 Use the username `admin` and the password obtained in the previous step. Create App using Helm charts from Git repository as on example below and press Sync.
+
 ![Image](https://github.com/ro-mus/AsciiArtify/blob/main/img/ArgoCD-1.gif)
+
 Monitor the Application Synchronization: ArgoCD monitors the specified Git repository for changes. When a change is detected (such as a new commit), ArgoCD will sync the state of the repository with the state of the Kubernetes cluster.
 
+![Image](https://github.com/ro-mus/AsciiArtify/blob/main/img/ArgoCD-2.gif)
